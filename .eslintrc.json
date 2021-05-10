@@ -2,10 +2,10 @@
   "parser": "@typescript-eslint/parser",
   "extends": [
     "airbnb",
+    "airbnb/hooks",
     "prettier",
     "react-app",
-    "react-app/jest",
-    "plugin:react/recommended"
+    "react-app/jest"
   ],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts"] }],
