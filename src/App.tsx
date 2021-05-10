@@ -1,7 +1,17 @@
 import React from 'react';
 import './App.css';
+import { List, ListItemIcon, ListItemText } from '@material-ui/core';
+import { ExitToApp } from '@material-ui/icons';
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-const App = () => <div className="App"> Hello World</div>;
+const App = () => (
+  <div className="App">
+    <List>
+      <ListItemIcon>
+        <ExitToApp />
+      </ListItemIcon>
+      <ListItemText>Hello World!</ListItemText>
+    </List>
+  </div>
+);
 
 export default App;
